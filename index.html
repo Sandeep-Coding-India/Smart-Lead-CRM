@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Smart Lead CRM - manage leads, sales pipeline and follow-ups.">
+  <title>Smart Lead CRM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-page">
+  <main class="auth-shell">
+    <section class="auth-brand">
+      <div class="brand-mark">S</div>
+      <p class="eyebrow">SALES WORKSPACE</p>
+      <h1>Turn every lead<br><span>into an opportunity.</span></h1>
+      <p class="muted">A simple, focused workspace to manage leads, follow-ups and your sales pipeline.</p>
+      <div class="feature-pills"><span>Lead tracking</span><span>Smart follow-ups</span><span>Sales insights</span></div>
+    </section>
+    <section class="auth-card">
+      <div class="brand-inline"><div class="brand-mark small">S</div><strong>Smart Lead CRM</strong></div>
+      <h2>Welcome back</h2>
+      <p class="muted">Sign in to continue to your workspace.</p>
+      <form id="loginForm" class="form-stack">
+        <label>Email address<input type="email" id="loginEmail" autocomplete="username" placeholder="you@example.com" required></label>
+        <label>Password<input type="password" id="loginPassword" autocomplete="current-password" placeholder="Enter your password" required minlength="6"></label>
+        <div class="form-row between"><label class="check-label"><input type="checkbox" id="rememberMe"> Remember me</label><a href="forgot-password.html">Forgot password?</a></div>
+        <button class="btn btn-primary full" type="submit">Sign in <span>→</span></button>
+        <p id="loginMessage" class="form-message" aria-live="polite"></p>
+      </form>
+      <p class="auth-switch">New here? <a href="register.html">Create an account</a></p>
+      <p class="fine-print">Demo project: account data is stored in this browser only.</p>
+    </section>
+  </main>
+  <script src="js/storage.js"></script><script src="js/auth.js"></script>
+</body>
+</html>
